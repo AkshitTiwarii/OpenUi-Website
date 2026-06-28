@@ -20,7 +20,7 @@ export default function PrivacyPage() {
       <ReadingProgress />
 
       <LegalHero
-        title="Privacy Policy"
+        title={<>Privacy <span style={{ color: 'var(--color-lime)' }}>Policy</span></>}
         subtitle="Your privacy matters. Learn how OpenUI collects, uses, and protects your information while providing AI-powered desktop experiences."
         lastUpdated="June 28, 2026"
         wordCount={wordCount}
