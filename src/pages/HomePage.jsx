@@ -58,7 +58,7 @@ export default function HomePage() {
                 your entire<br />
                 <em style={{ color: 'var(--color-lime)', fontStyle: 'italic' }}>operating system.</em>
               </h1>
-              <p style={{ fontSize: '15px', color: 'var(--color-muted)', maxWidth: '400px', lineHeight: 1.75, marginTop: '28px' }}>
+              <p style={{ fontSize: '13px', color: 'var(--color-muted)', maxWidth: '400px', lineHeight: 1.75, marginTop: '28px' }}>
                 Talks, types, clicks, codes, books meetings, and reviews pull requests —
                 all from a menu bar icon. No cloud required to get started.
               </p>
@@ -84,7 +84,7 @@ export default function HomePage() {
                 <span style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-subdued)', marginLeft: 'auto' }}>.exe</span>
               </a>
 
-              <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-faint)', textAlign: 'center', marginTop: '4px' }}>
+              <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-subdued)', textAlign: 'center', marginTop: '4px' }}>
                 Free · 20 AI messages / day · No account needed
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function HomePage() {
               <p className="label" style={{ marginBottom: '18px' }}>What it does</p>
               <h2 className="display" style={{ fontSize: 'clamp(28px,3.5vw,40px)', lineHeight: 1.1 }}>
                 Everything your OS can do,<br />
-                spoken in plain language.
+                spoken in <span style={{ color: 'var(--color-lime)' }}>plain language.</span>
               </h2>
             </div>
             <p style={{ fontSize: '14px', color: 'var(--color-muted)', lineHeight: 1.75, maxWidth: '360px', marginLeft: 'auto' }}>
@@ -241,32 +241,13 @@ export default function HomePage() {
             {/* left */}
             <div>
               <p className="label" style={{ marginBottom: '20px' }}>Pro · Coming soon</p>
-              <h2 className="display" style={{ fontSize: 'clamp(34px,4vw,52px)', lineHeight: 1.0 }}>
+              <h2 className="display" style={{ fontSize: 'clamp(54px,7.5vw,92px)', lineHeight: 1.0 }}>
                 More model.<br />
                 More context.<br />
                 <span style={{ color: 'var(--color-lime)' }}>Same machine.</span>
               </h2>
 
-              <div className="stat-row">
-                <div>
-                  <p className="num">Messages / day</p>
-                  <p style={{ fontSize: '24px', fontWeight: 500, color: 'var(--color-paper)', marginTop: '6px' }}>500</p>
-                </div>
-                <div>
-                  <p className="num">Monthly price</p>
-                  <p style={{ fontSize: '24px', fontWeight: 500, color: 'var(--color-paper)', marginTop: '6px' }}>
-                    $19<span style={{ fontSize: '13px', color: 'var(--color-muted)', fontWeight: 400 }}>/mo</span>
-                  </p>
-                </div>
-                <div>
-                  <p className="num">Cloud models</p>
-                  <p style={{ fontSize: '13px', color: 'var(--color-paper)', marginTop: '6px' }}>Claude Sonnet · GPT-4o</p>
-                </div>
-                <div>
-                  <p className="num">Screen reading</p>
-                  <p style={{ fontSize: '13px', color: 'var(--color-paper)', marginTop: '6px' }}>Cloud vision enabled</p>
-                </div>
-              </div>
+
             </div>
 
             {/* right */}
@@ -292,7 +273,7 @@ export default function HomePage() {
                 </div>
               )}
 
-              <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-deep)', marginTop: '14px' }}>
+              <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-faint)', marginTop: '14px' }}>
                 No spam · Unsubscribe any time
               </p>
             </div>

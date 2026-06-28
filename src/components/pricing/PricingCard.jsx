@@ -87,7 +87,7 @@ export default function PricingCard({ plan, billingPeriod }) {
       )}
 
       {inrPrice && (
-        <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-subdued)', marginTop: '4px' }}>
+        <p style={{ fontFamily: 'var(--font-mono)', fontSize: '10px', color: 'var(--color-muted)', marginTop: '4px' }}>
           🇮🇳 {inrPrice}
         </p>
       )}
