@@ -145,6 +145,12 @@ nav {
   border: 1px solid var(--color-wire);
   padding: 3px 8px;
   margin: 4px 4px 0 0;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.chip:hover {
+  border-color: var(--color-lime);
+  box-shadow: 0 0 8px var(--color-lime);
 }
 
 /* ══════════════════ WAITLIST ══════════════════ */
