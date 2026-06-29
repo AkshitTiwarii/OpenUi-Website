@@ -1,6 +1,6 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
-/* ══════════════════ THEME TOKENS ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• THEME TOKENS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 @theme {
   --color-ink: #0A0A07;
   --color-paper: #F2EFE8;
@@ -18,7 +18,7 @@
   --font-sans: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* ══════════════════ BASE ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BASE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { background: var(--color-ink); scroll-behavior: smooth; }
 
@@ -31,7 +31,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ══════════════════ TYPOGRAPHY ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• TYPOGRAPHY â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .display {
   font-family: var(--font-serif);
   line-height: 1.0;
@@ -50,11 +50,11 @@ body {
   color: var(--color-subdued);
 }
 
-/* ══════════════════ LAYOUT ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• LAYOUT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .wrap { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
 .rule { border: none; border-top: 1px solid var(--color-wire); }
 
-/* ══════════════════ BUTTONS ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• BUTTONS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .btn-white {
   display: inline-flex;
   align-items: center;
@@ -93,7 +93,7 @@ body {
 }
 .btn-ghost:hover { border-color: var(--color-lime); color: var(--color-lime); }
 
-/* ══════════════════ NAV ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• NAV â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 nav {
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@ nav {
 .nav-link:hover { color: var(--color-paper); }
 .nav-link.active { color: var(--color-paper); }
 
-/* ══════════════════ HERO ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• HERO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -118,7 +118,7 @@ nav {
   padding: 88px 0 72px;
 }
 
-/* ══════════════════ FEATURE ROWS ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• FEATURE ROWS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .feat-row {
   display: grid;
   grid-template-columns: 52px 220px 1fr;
@@ -129,7 +129,7 @@ nav {
 }
 .feat-row:last-child { border-bottom: 1px solid var(--color-wire); }
 
-/* ══════════════════ PLATFORM ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PLATFORM â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .platform-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -153,7 +153,7 @@ nav {
   box-shadow: 0 0 8px var(--color-lime);
 }
 
-/* ══════════════════ WAITLIST ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• WAITLIST â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .waitlist-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -169,7 +169,7 @@ nav {
   margin-top: 24px;
 }
 
-/* ══════════════════ FORM ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• FORM â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .field {
   width: 100%;
   background: transparent;
@@ -184,7 +184,7 @@ nav {
 .field::placeholder { color: var(--color-faint); }
 .field:focus { border-color: var(--color-lime); }
 
-/* ══════════════════ DOT ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• DOT â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .dot {
   width: 7px; height: 7px;
   background: var(--color-lime);
@@ -195,9 +195,9 @@ nav {
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 .dot-pulse { animation: pulse 2.4s ease-in-out infinite; }
 
-/* ══════════════════ PLACEHOLDER ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PLACEHOLDER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .placeholder {
-  background: var(--color-dim);
+  background: var(--color-ink);
   border: 1px solid #1e1e1a;
   display: flex;
   align-items: center;
@@ -210,7 +210,7 @@ nav {
   letter-spacing: 0.06em;
 }
 
-/* ══════════════════ TICKER ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• TICKER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .ticker-wrap {
   width: 100%;
   overflow: hidden;
@@ -274,7 +274,7 @@ nav {
 .ticker-item svg { width: 14px; height: 14px; flex-shrink: 0; }
 
 
-/* ══════════════════ FOOTER ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• FOOTER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .footer-inner {
   display: flex;
   align-items: center;
@@ -292,7 +292,7 @@ nav {
 }
 .f-link:hover { color: var(--color-paper); }
 
-/* ══════════════════ PRICING — BILLING TOGGLE ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PRICING â€” BILLING TOGGLE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .billing-toggle {
   display: inline-flex;
   align-items: center;
@@ -323,7 +323,7 @@ nav {
   color: var(--color-paper);
 }
 
-/* ══════════════════ PRICING — CARDS ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PRICING â€” CARDS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -451,7 +451,7 @@ nav {
   margin-top: 28px;
 }
 
-/* ══════════════════ PRICING — FAQ ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PRICING â€” FAQ â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 .faq-item {
   border-top: 1px solid var(--color-wire);
 }
@@ -506,7 +506,7 @@ nav {
   max-width: 640px;
 }
 
-/* ══════════════════ RESPONSIVE ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• RESPONSIVE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 @media (max-width: 768px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -527,11 +527,11 @@ nav {
   .stat-row { grid-template-columns: 1fr; }
 }
 
-/* ══════════════════════════════════════════════════════════ */
-/* ═══════════  PLATFORM PAGE STYLES  ═══════════════════════ */
-/* ══════════════════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* â•â•â•â•â•â•â•â•â•â•â•  PLATFORM PAGE STYLES  â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-/* ── Scroll Progress ── */
+/* â”€â”€ Scroll Progress â”€â”€ */
 .scroll-progress {
   position: fixed;
   top: 0;
@@ -542,7 +542,7 @@ nav {
   transition: width 0.1s linear;
 }
 
-/* ── Platform Layout ── */
+/* â”€â”€ Platform Layout â”€â”€ */
 .platform-layout {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -551,7 +551,7 @@ nav {
   min-height: 100vh;
 }
 
-/* ── Sidebar ── */
+/* â”€â”€ Sidebar â”€â”€ */
 .platform-sidebar {
   position: sticky;
   top: 55px;
@@ -616,7 +616,7 @@ nav {
   flex-shrink: 0;
 }
 
-/* ── Mobile Drawer Toggle ── */
+/* â”€â”€ Mobile Drawer Toggle â”€â”€ */
 .platform-drawer-toggle {
   display: none;
   position: fixed;
@@ -649,7 +649,7 @@ nav {
 .hamburger.open span:nth-child(2) { opacity: 0; }
 .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(3px, -3px); }
 
-/* ── Mobile Drawer Overlay ── */
+/* â”€â”€ Mobile Drawer Overlay â”€â”€ */
 .platform-drawer-overlay {
   position: fixed;
   inset: 0;
@@ -674,7 +674,7 @@ nav {
   to { transform: translateX(0); }
 }
 
-/* ── Platform Content ── */
+/* â”€â”€ Platform Content â”€â”€ */
 .platform-content {
   padding: 0 48px 0 56px;
   min-width: 0;
@@ -684,7 +684,7 @@ nav {
   padding: 72px 0 48px;
 }
 
-/* ── Sections ── */
+/* â”€â”€ Sections â”€â”€ */
 .platform-section {
   padding: 56px 0;
   border-top: 1px solid var(--color-wire);
@@ -706,16 +706,16 @@ nav {
   line-height: 1.1;
 }
 
-/* ── Feature Cards Grid ── */
+/* â”€â”€ Feature Cards Grid â”€â”€ */
 .feature-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1px;
   background: var(--color-wire);
   margin: 0 0 28px;
 }
 
-/* ── Feature Card ── */
+/* â”€â”€ Feature Card â”€â”€ */
 .feature-card {
   background: var(--color-ink);
   padding: 24px;
@@ -771,9 +771,9 @@ nav {
   letter-spacing: 0.04em;
 }
 
-/* ── Workflow Diagram ── */
+/* â”€â”€ Workflow Diagram â”€â”€ */
 .workflow-diagram {
-  background: var(--color-dim);
+  background: var(--color-ink);
   border: 1px solid var(--color-wire);
   padding: 28px 32px;
   margin: 0 0 28px;
@@ -856,9 +856,9 @@ nav {
   margin-bottom: 10px;
 }
 
-/* ── Architecture Diagram ── */
+/* â”€â”€ Architecture Diagram â”€â”€ */
 .arch-diagram {
-  background: var(--color-dim);
+  background: var(--color-ink);
   border: 1px solid var(--color-wire);
   padding: 32px;
   margin: 0 0 28px;
@@ -917,9 +917,9 @@ nav {
   height: 28px;
 }
 
-/* ── Code Block ── */
+/* â”€â”€ Code Block â”€â”€ */
 .code-block {
-  background: var(--color-dim);
+  background: var(--color-ink);
   border: 1px solid var(--color-wire);
   margin: 0 0 28px;
   overflow: hidden;
@@ -982,12 +982,12 @@ nav {
   white-space: pre;
 }
 
-/* ── Callout ── */
+/* â”€â”€ Callout â”€â”€ */
 .callout {
   border: 1px solid var(--color-wire);
   padding: 16px 20px;
   margin: 0 0 28px;
-  background: var(--color-dim);
+  background: var(--color-ink);
 }
 .callout-info { border-left: 3px solid var(--color-muted); }
 .callout-tip { border-left: 3px solid var(--color-lime); }
@@ -1010,12 +1010,12 @@ nav {
   line-height: 1.65;
 }
 
-/* ── Platform CTA ── */
+/* â”€â”€ Platform CTA â”€â”€ */
 .platform-cta {
   padding: 24px 0;
 }
 
-/* ══════════════════ PLATFORM RESPONSIVE ══════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• PLATFORM RESPONSIVE â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 /* Tablet */
 @media (max-width: 1024px) {
@@ -1060,11 +1060,11 @@ nav {
   }
 }
 
-/* ══════════════════════════════════════════════════════════ */
-/* ═══════════  STANDALONE LEGAL PAGES STYLES  ══════════════ */
-/* ══════════════════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* â•â•â•â•â•â•â•â•â•â•â•  STANDALONE LEGAL PAGES STYLES  â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-/* ── Reading Progress Bar ── */
+/* â”€â”€ Reading Progress Bar â”€â”€ */
 .reading-progress-bar {
   position: fixed;
   top: 0;
@@ -1075,14 +1075,14 @@ nav {
   transition: width 0.1s linear;
 }
 
-/* ── Legal Page Root ── */
+/* â”€â”€ Legal Page Root â”€â”€ */
 .legal-page-root {
   background: var(--color-ink);
   color: var(--color-paper);
   min-height: 100vh;
 }
 
-/* ── Legal Hero Section ── */
+/* â”€â”€ Legal Hero Section â”€â”€ */
 .legal-hero {
   padding: 88px 0 54px;
   border-bottom: 1px solid var(--color-wire);
@@ -1172,7 +1172,7 @@ nav {
   line-height: 1.5;
 }
 
-/* ── Legal Layout Grid ── */
+/* â”€â”€ Legal Layout Grid â”€â”€ */
 .legal-layout-grid {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -1182,7 +1182,7 @@ nav {
   padding-bottom: 100px;
 }
 
-/* ── TOC Sidebar ── */
+/* â”€â”€ TOC Sidebar â”€â”€ */
 .toc-sidebar {
   position: sticky;
   top: 90px;
@@ -1265,7 +1265,7 @@ nav {
   padding: 5px 8px;
 }
 
-/* ── Main Legal Content ── */
+/* â”€â”€ Main Legal Content â”€â”€ */
 .legal-main-content {
   max-width: 800px;
   min-width: 0;
@@ -1352,13 +1352,13 @@ nav {
   opacity: 0.9;
 }
 .legal-bullets li::before {
-  content: '•';
+  content: 'â€¢';
   position: absolute;
   left: -16px;
   color: var(--color-lime);
 }
 
-/* ── Legal Callout Card ── */
+/* â”€â”€ Legal Callout Card â”€â”€ */
 .legal-callout-card {
   margin: 24px 0 16px;
   padding: 18px 22px;
@@ -1402,7 +1402,7 @@ nav {
   line-height: 1.6;
 }
 
-/* ── FAQ Accordion Section ── */
+/* â”€â”€ FAQ Accordion Section â”€â”€ */
 .legal-faq-section {
   padding: 56px 0;
   border-top: 1px solid var(--color-wire);
@@ -1477,7 +1477,7 @@ nav {
   padding-bottom: 18px;
 }
 
-/* ── Contact Section ── */
+/* â”€â”€ Contact Section â”€â”€ */
 .legal-contact-section {
   padding: 56px 0;
   border-top: 1px solid var(--color-wire);
@@ -1520,7 +1520,7 @@ nav {
   background: rgba(200, 245, 98, 0.06);
 }
 
-/* ── Back to Top Button ── */
+/* â”€â”€ Back to Top Button â”€â”€ */
 .back-to-top-btn {
   position: fixed;
   bottom: 28px;
@@ -1541,7 +1541,7 @@ nav {
   border-color: var(--color-lime);
 }
 
-/* ── Print Media Styles ── */
+/* â”€â”€ Print Media Styles â”€â”€ */
 @media print {
   header, footer, .reading-progress-bar, .toc-sidebar, .back-to-top-btn, .legal-toolbar, .legal-contact-section, .legal-faq-section {
     display: none !important;
@@ -1586,7 +1586,7 @@ nav {
   }
 }
 
-/* ── Responsive Rules ── */
+/* â”€â”€ Responsive Rules â”€â”€ */
 @media (max-width: 1024px) {
   .legal-layout-grid {
     grid-template-columns: 1fr;
@@ -1612,4 +1612,6 @@ nav {
     display: block;
   }
 }
+
+
 
